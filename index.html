@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+    <title>Oracle ONE - Decodificador de Textos</title>
+</head>
+<body>
+    
+    <main class="principal">
+        <section class="main-section">
+            <section class="principal-content">
+                <header>
+                    <a href="https://www.alura.com.br/"><img src="images/Frame 6.png" alt="link do site"></a>
+                </header>
+
+                <div class="txt-box">
+                    <textarea class="txt-box-element" placeholder="Digite seu texto..." ></textarea>
+                </div>
+                <div class="input-group">
+                    <div class="info">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div>
+                        <input type="button" value="Criptografar" class="btn-general encrypt-btn" onclick="encryptText()">
+                        <input class="btn-general" type="button" value="Descriptografar" onclick="decryptText()">
+                    </div>
+                </div>
+            </section>
+
+            <aside class="aside-content">
+                <div class="content">
+                    <img src="images/High quality products 1 1.jpg" class="img-txt-info" alt="Imagem que informa a ausência de mensagem">
+                    <textarea id="txt-result" readonly></textarea>
+                    <h1 class="txt-title">Nenhuma mensagem encontrada</h1>
+                    <p class="txt-info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="copy-container">
+                    <input type="button" value="Copiar" class="btn-general copy-btn" onclick="copyText()">
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Patrick Alves Matano - Oracle ONE</p>
+        <div>
+            <a href="https://github.com/patrickmq13"></a>     
+            <a href="https://linkedin.com/in/patrick-matano-1915ba216"></a>
+        </div>
+        
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
